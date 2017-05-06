@@ -1,0 +1,96 @@
+*body{
+	font-family: Comic Sans MS;
+	font-weight:30;
+}
+.bg-cover{
+	background: url(../images/background/bg.jpg) fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}/*=============================================*/
+.navbar-default {
+    border-color: #E7E7E7;
+	display: block;
+	color: white;
+	text-align: center;
+	margin:0% 0.5%;
+	position: fixed;
+	background: rgba(0,0,0,.6);
+	width:99%;
+	padding: 0px 0px 5px 0px;
+	-webkit-border-radius: 25px;
+	-webkit-box-shadow: rgba(110,110,110,.6) -10px -10px 10px 20px;
+	-webkit-transition: background 2s, -webkit-box-shadow .6s;
+	font-family: Comic Sans MS;
+	//background: black;
+	//-webkit-box-shadow: rgba(255,255,255,.6) -10px -10px 10px 20px;
+}
+.navbar-default .navbar-nav > li > a {
+    //color: #777777;
+	color : white;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    //background-color: #E7E7E7;
+	background-color: black;
+    //color: #555555;
+	color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+	color : #18BC9C;
+	background-color : black;
+}
+
+.navbar-default .navbar-brand {
+	color : #18BC9C;
+	font-family: freestyle script;
+	font-size:40px;
+	padding-right: 20px;
+}
+.navbar-brand{
+	//color:#777
+	}
+.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{
+	color: #7FFFD4;
+	background-color:transparent
+}
+/*===================================*/
+.bg-aside{
+	background : url(../images/background/side_b.gif);
+	/*background : rgba(102,255,255,.5);*/
+	//color : white;
+	background-size : 100% 100%;
+	background-repeat : no-repeat;
+}
+
+.bg-article{
+	background: rgba(255,255,255,.6);
+	color:black;
+	//background: rgba(255,128,0,.6);
+	//color:#CC9900; 
+	//background: -webkit-radial-gradient(center, circle, #8000FF 5%, #06000D 100%);
+	font-family: Comic Sans MS;
+	font-size:17;
+}
+
+.carousel-border{
+	border: 10px solid white;
+}
+
+.bg-danger1{
+	-webkit-border-radius: 25px 25px 0px 0px;
+	color:black;
+}
+.bg-footer{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#7FFFD4;
+	font-size:20px;
+	background: rgba(0,0,0,.8);
+	//text-align: center;
+	padding:0px 0px 0px 0px;
+	border-top: 1px solid black;
+	font-family: freestyle script;
+	//padding-top:0px;
+}

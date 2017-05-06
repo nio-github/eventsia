@@ -1,0 +1,23 @@
+.gallery
+{
+    display: inline-block;
+    margin-top: 20px;
+}
+/*.gallery1 ul{
+	list-style:none;
+}
+
+.gallery1 li{
+	float:left;
+	margin:10px;
+}
+
+.gallery1 img{
+	//display:block;
+	padding:5px;
+	background:#42517f;
+	border:1px solid #99adeb;
+}
+.gallery1 img:hover    {
+	border:1px solid #fff;
+}*/

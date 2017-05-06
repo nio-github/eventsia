@@ -1,0 +1,43 @@
+html, body, div, h3, p, ui, li, img{
+	margin:0;
+	padding;
+}
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+body{
+background:#969fa;
+}
+.container1{
+	width:700px;
+	margin:30px auto 0;
+}
+#content1{
+//	background:#848c9c;
+//	background:linear-gradient(to top, #848c9c 0%, #687080 50%, #a7b1c5 100%);
+//	background:-webkit-linear-gradient(bottom, #848c9c 0%, #687080 50%, #a7b1c5 100%);
+	padding-bottom:30px;
+	overflow:hidden;
+}
+.gallery1{
+	width:528px;
+	margin: auto;
+}
+.gallery1 ul{
+	list-style:none;
+}
+
+.gallery1 li{
+	float:left;
+	margin:10px;
+}
+
+.gallery1 img{
+	display:block;
+	padding:5px;
+	background:#42517f;
+	border:1px solid #99adeb;
+}
+.gallery1 img:hover    {
+	border:1px solid #fff;
+}
